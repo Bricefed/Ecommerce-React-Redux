@@ -1,0 +1,18 @@
+// UTILS
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./utils/placeholder";
+@import "./utils/reusable";
+
+// BASES
+@import "./base/reset";
+@import "./base/fonts";
+
+// COMPONENTS
+@import "./components/titles/all";
+@import "./components/navigation";
+@import "./components/footer";
+
+// PAGES
+@import "./pages/home";
+@import "./pages/contact";

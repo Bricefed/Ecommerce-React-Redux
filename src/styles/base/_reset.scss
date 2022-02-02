@@ -1,0 +1,37 @@
+body,
+body::before,
+body::after,
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; // 1rem <=> 10px
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+textarea {
+  resize: none;
+}
+
+textarea,
+input,
+button {
+  font-family: inherit;
+}
+
+p {
+  font-size: 1.6rem;
+}
