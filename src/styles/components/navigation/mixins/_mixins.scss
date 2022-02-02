@@ -1,0 +1,11 @@
+@mixin buger-property-pseudo-el($position) {
+  content: "";
+  @include buger-property();
+  #{$position}: 8px;
+}
+
+@mixin buger-property {
+  position: absolute;
+  @include size(100%, 2px);
+  background: $dark;
+}

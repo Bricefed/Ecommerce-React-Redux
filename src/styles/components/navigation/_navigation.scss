@@ -1,0 +1,10 @@
+header.navigation {
+  color: $dark;
+
+  .burger-menu {
+    display: none;
+  }
+
+  @import "./navbar";
+  @import "./responsive";
+}
