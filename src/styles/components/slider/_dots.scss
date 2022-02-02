@@ -1,0 +1,20 @@
+.dots-container {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 1.5rem;
+
+  .dot {
+    @include size(5rem, 5px);
+    background: white;
+    border-radius: 3px;
+    opacity: 0.5;
+    cursor: pointer;
+
+    &.active {
+      opacity: 1;
+    }
+  }
+}

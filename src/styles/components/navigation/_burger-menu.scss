@@ -8,6 +8,7 @@
     right: 10px;
     @include same-size(30px);
     cursor: pointer;
+    z-index: 100;
 
     &.open {
       span {

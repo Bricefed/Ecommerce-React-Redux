@@ -1,0 +1,16 @@
+.arrow {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  @include same-size(5rem);
+  border-radius: 50%;
+  cursor: pointer;
+
+  &.next {
+    right: 4rem;
+  }
+
+  &.prev {
+    left: 4rem;
+  }
+}
