@@ -33,22 +33,5 @@
       font-size: 2rem;
       font-weight: 300;
     }
-
-    .btn-buy {
-      display: inline-block;
-      width: 130px;
-      color: $dark;
-      border: 1px solid $dark;
-      border-radius: 5px;
-      padding: 10px;
-      margin: 0 auto;
-      font-size: 1.5rem;
-      transition: 0.3s;
-
-      &:hover {
-        background: $dark;
-        color: white;
-      }
-    }
   }
 }

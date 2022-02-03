@@ -10,7 +10,7 @@ export default function Listing() {
         <div className="card-body">
           <h4 className="title">{item.title}</h4>
           <p className="price">{item.price} €</p>
-          <NavLink to={`/products/${item.id}`} className="btn-buy">
+          <NavLink to={`/products/${item.id}`} className="btn">
             Plus d'info
           </NavLink>
         </div>

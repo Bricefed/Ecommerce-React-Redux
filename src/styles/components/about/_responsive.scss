@@ -1,0 +1,16 @@
+.about-container {
+  @media screen and (max-width: $tablet) {
+    flex-direction: column-reverse;
+    margin-bottom: 5rem;
+  }
+
+  .left-content,
+  .right-content {
+    width: 90%;
+  }
+
+  .right-content {
+    text-align: center;
+    margin-top: 3rem;
+  }
+}
