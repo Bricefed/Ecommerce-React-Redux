@@ -1,12 +1,12 @@
 import React from "react";
 import Slider from "../components/Slider/Slider";
-import Product from "./Product";
+import Products from "./Products";
 
 export default function Home() {
   return (
     <div className="home-container">
       <Slider />
-      <Product />
+      <Products />
     </div>
   );
 }
