@@ -1,0 +1,45 @@
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5rem;
+  margin-top: 15rem;
+
+  .img-box {
+    width: 300px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .infos-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 50%;
+
+    h2 {
+      width: 100%;
+      font-size: 4rem;
+    }
+
+    h3 {
+      font-weight: 300;
+      font-size: 3rem;
+    }
+
+    p {
+      color: #999;
+      font-weight: 400;
+      font-size: 1.7rem;
+      letter-spacing: 1px;
+      text-align: justify;
+      line-height: 2.8rem;
+    }
+
+    button {
+      margin: 2rem 0;
+    }
+  }
+}

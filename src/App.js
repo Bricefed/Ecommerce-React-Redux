@@ -4,6 +4,7 @@ import Home from "./container/Home";
 import About from "./container/About";
 import Products from "./container/Products";
 import Contact from "./container/Contact";
+import SingleProduct from "./container/SingleProduct";
 // import Footer from "./components/Footer";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/products/:id" element={<SingleProduct />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

@@ -12,10 +12,11 @@
 @import "./components/titles/all";
 @import "./components/navigation/navigation";
 @import "./components/slider/slider";
-@import "./components/products/products";
 @import "./components/footer";
 
 // PAGES
 @import "./pages/home";
 @import "./pages/about";
+@import "./pages/products/products";
+@import "./pages/products/single-product";
 @import "./pages/contact";
