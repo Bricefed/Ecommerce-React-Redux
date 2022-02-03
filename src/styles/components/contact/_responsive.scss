@@ -1,0 +1,15 @@
+@media screen and (max-width: $tablet) {
+  .contact-container {
+    flex-direction: column;
+    margin-top: 5rem;
+
+    .left-content,
+    .right-content {
+      width: 100%;
+    }
+
+    .left-content {
+      text-align: center;
+    }
+  }
+}

@@ -31,11 +31,18 @@ textarea,
 input,
 button {
   font-family: inherit;
+
+  &:focus,
+  &:focus-visible {
+    outline: none;
+  }
 }
 
 button {
+  background: inherit;
   border: none;
   outline: none;
+  cursor: pointer;
 }
 
 p {

@@ -1,0 +1,31 @@
+.contact-container {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 6rem);
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .left-content,
+  .right-content {
+    width: 50%;
+  }
+
+  .left-content {
+    img {
+      width: 45rem;
+    }
+  }
+
+  .right-content {
+    h2 {
+      width: 100%;
+      color: #4547ed;
+      margin-bottom: 5rem;
+    }
+  }
+
+  @import "../components/contact/form";
+}
+
+@import "../components/contact/responsive";
