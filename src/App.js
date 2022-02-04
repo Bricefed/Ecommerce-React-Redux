@@ -6,6 +6,7 @@ import Products from "./container/Products";
 import Contact from "./container/Contact";
 import SingleProduct from "./container/SingleProduct";
 import Cart from "./container/Cart";
+import Checkout from "./container/Checkout";
 // import Footer from "./components/Footer";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/products/:id" element={<SingleProduct />} />
         <Route path="/about" element={<About />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
 

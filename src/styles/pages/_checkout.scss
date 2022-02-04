@@ -1,0 +1,24 @@
+.checkout-container {
+  margin: 5rem auto;
+  width: 90%;
+
+  h2 {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    width: 100%;
+    margin-bottom: 5rem;
+
+    .badge {
+      display: inline-block;
+      text-align: center;
+      font-size: 2rem;
+      line-height: 2em;
+      background: $dark;
+      color: white;
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+    }
+  }
+}
