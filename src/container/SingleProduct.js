@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { useParams } from "react-router";
 import { data } from "../components/Product/data";
+import { useDispatch } from "react-redux";
+import { addItem, delItem } from "../redux/actions/index";
 
 export default function SingleProduct() {
   const [cartBtn, setCartBtn] = useState("Ajouter au panier");
@@ -9,9 +11,16 @@ export default function SingleProduct() {
   const productDetail = data.filter((item) => item.id == productId.id);
   const product = productDetail[0];
 
+  const dispatch = useDispatch();
+
   const handleCart = (product) => {
-    if (cartBtn == "Ajouter au panier") setCartBtn("Retirer du panier");
-    else setCartBtn("Ajouter au panier");
+    if (cartBtn == "Ajouter au panier") {
+      dispatch(addItem(product));
+      setCartBtn("Retirer du panier");
+    } else {
+      dispatch(delItem(product));
+      setCartBtn("Ajouter au panier");
+    }
   };
 
   return (

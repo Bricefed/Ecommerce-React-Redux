@@ -1,6 +1,8 @@
-import React from "react";
+import { useSelector } from "react-redux";
 
 export default function Btns() {
+  const state = useSelector((state) => state.addItem);
+
   return (
     <div className="btns-header">
       <a href="#!" className="login">
@@ -10,7 +12,7 @@ export default function Btns() {
         Inscription
       </a>
       <a href="#!" className="cart">
-        Panier
+        Panier ({state.length})
       </a>
     </div>
   );
