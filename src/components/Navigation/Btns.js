@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import { NavLink } from "react-router-dom";
 
 export default function Btns() {
   const state = useSelector((state) => state.addItem);
@@ -11,9 +12,9 @@ export default function Btns() {
       <a href="#!" className="signup">
         Inscription
       </a>
-      <a href="#!" className="cart">
+      <NavLink to="/cart" className="cart">
         Panier ({state.length})
-      </a>
+      </NavLink>
     </div>
   );
 }

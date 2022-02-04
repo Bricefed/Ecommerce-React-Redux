@@ -1,0 +1,18 @@
+.cart-container {
+  margin-top: 5rem;
+
+  .empty-cart {
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 20rem;
+    text-align: center;
+  }
+
+  @import "../components/card/list-product";
+
+  .payment-container {
+    margin-top: 5rem;
+    text-align: center;
+  }
+}
